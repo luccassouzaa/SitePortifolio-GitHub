@@ -1,0 +1,46 @@
+#Section_Sobre{
+    padding-top: 17rem;
+    padding-bottom: 17rem;
+}
+
+.landingpage_main_sobre{
+    background-color: #181818;
+    color: white;
+    border: 1px solid black;
+}
+
+.landingpage_main_cont img{
+    height: 20rem;
+}
+
+.landingpage_main_textall{
+    width: 30rem;
+}
+
+.landingpage_main_cont{
+    margin: 3rem;
+    margin-right: 6rem;
+    gap: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.landingpage_main_imgsobre{
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.landingpage_main_textsobre{
+    margin: 0 auto;
+}
+
+.landingpage_main_textsobre h1{
+    padding-bottom: 3rem;
+    font-size: 5vh;
+}
+
+.landingpage_main_textsobre p{
+    font-size: 3vh;
+}

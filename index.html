@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luccas Andre | www.kamikatech.com.br</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./fonts.css">
+    <link rel="stylesheet" type="text/css" href="./breakpoint1k">
+</head>
+
+<body>
+    <div class="container_safezone">
+            <a name="home"></a>
+            <div id="progressbar"></div>
+            <div id="scrollPath"></div>
+        <header class="headertop_navbar">
+            <div class="headertop_navbar_div_img">
+                <img class="headertop_navbar_img" src="./assets/logonova(devjunior).png">
+            </div>
+            <div class="headertop_navbar_div_itens">
+                <ul class="headertop_navbar_itens">
+                    <li class="headertop_navbar_itens_text"><a href="#home">Home</a></li>
+                    <li class="headertop_navbar_itens_text"><a href="#sobre">Sobre</a></li>
+                    <li class="headertop_navbar_itens_text"><a href="index.html">Formação</a></li>
+                    <li class="headertop_navbar_itens_text"><a href="index.html">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="landingpage_main">
+            <div class="landingpage_main_div_bemvindo">
+                <nav class="landingpage_main_nav">
+                    <h1>Luccas Andre | Dev Júnior</h1>
+                </nav>
+                <div id="animation_main">
+                    <div class="wrapper">
+                        <ul class="dynamics-txts">
+                            <li><span id="typed"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="Section_Sobre">
+                <a name="sobre"></a>
+                <nav class="landingpage_main_sobre" >
+                    <div class="landingpage_main_cont">
+                        <div class="landingpage_main_imgsobre">
+                            <img src="./assets/logonova(devjunior).png"> 
+                            <!-- <img style="height: 3rem; " src="./assets/instagram-icone-orange.png"> -->
+                        </div>
+                        <div class="landingpage_main_textall">
+                            <div class="landingpage_main_textsobre">  
+                                <h1>Sobre</h1>
+                                <p>
+                                    Me chamo Luccas Andre de Souza Melim, atualmente estudante de Ciência da Computação, meu menor sonho é ser full-stack, ja meu maior eu nem decidi ainda de tão alto que ele é, enfim, sigo firme estudando e sempre conhecendo coisas novas, sempre em busca de novos conhecimentos e experiências.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+    <script src="./JS/typewriter.js"></script>
+    <script>
+        var app = document.getElementById('typed');
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+        typewriter.typeString('Cientista da Computação')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('Dev Júnior')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('Designer Gráfico')
+            .pauseFor(2500)
+            .start();
+    </script>
+</body>
+</html>
